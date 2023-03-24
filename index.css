@@ -1,0 +1,90 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+    user-select: none;
+}
+
+.container {
+    width: 90%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+img {
+    width: 100px;
+}
+
+input,
+button {
+
+    border: none;
+    border-radius: 8px;
+}
+
+input {
+    width: 20em;
+    height: 8em;
+    text-align: center;
+    background: #444059;
+    color: #8F8F8F;
+}
+
+#from-to-div {
+    display: flex;
+    gap: 5em;
+    padding: 1em;
+}
+
+#from-to-div input {
+    width: 7em;
+    height: 3em;
+}
+
+button {
+    width: 13.33em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: slateblue;
+    margin: 0.4em 0;
+    padding: 0.5em 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    line-height: 1.35;
+    padding: 0.5em;
+    margin: 0.5em;
+    letter-spacing: 0.8px;
+}
+
+.message-para {
+    margin-top: 1em;
+    border: 2px solid yellow;
+    width: 20em;
+    background-color: whitesmoke;
+    color: black;
+    text-indent: 2em;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    padding: 0.6em;
+}
+
+.message-para p {
+    margin: 1em 0;
+    padding: 0;
+    text-indent: 0;
+}
